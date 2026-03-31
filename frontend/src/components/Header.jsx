@@ -19,7 +19,7 @@ export default function Header() {
         <div className="header-meta">
           <div className="meta-pill">
             <span className="dot dot--green" />
-            CLIP v2 Active
+            Dino v2 & CLIP v2 Active
           </div>
           <div className="meta-pill">
             100 Materials Indexed

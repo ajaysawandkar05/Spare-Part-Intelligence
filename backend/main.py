@@ -26,7 +26,7 @@ app = FastAPI(title="HWL Spare Parts Retrieval API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000","http://localhost:5174"],
+    allow_origins=["http://localhost:3000","http://localhost:5174"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -108,10 +108,24 @@ def get_material(material_id: str):
 
 @app.get("/api/image/{material_id}")
 def serve_image(material_id: str):
-    img_path = IMAGES_DIR / material_id / "image_1.png"
-    if not img_path.exists():
-        raise HTTPException(404, "Image not found.")
-    return FileResponse(str(img_path), media_type="image/png")
+    folder = IMAGES_DIR / material_id
+
+    if not folder.exists():
+        raise HTTPException(404, "Material folder not found.")
+
+    # Get all valid image files
+    image_files = sorted([
+        f for f in folder.glob("*")
+        if f.is_file() and f.suffix.lower() in [".png", ".jpg", ".jpeg", ".webp"]
+    ])
+
+    if not image_files:
+        raise HTTPException(404, "No images found.")
+
+    # Return first image (or you can randomize)
+    img_path = image_files[0]
+
+    return FileResponse(str(img_path))
 
 
 @app.post("/api/index/rebuild")

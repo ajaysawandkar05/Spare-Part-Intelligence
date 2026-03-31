@@ -5,9 +5,15 @@
     "storage_bin": "M01 08.08",
     "total_stock": 6,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\9-1980914-6\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980914-6/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980914-6/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980914-6/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980914-6/image_4.png"
+    ],
+    "description": "industrial spare part: a small piece of metal with a small piece of metal on it"
   },
   {
     "material_id": "59-1068252-00010",
@@ -15,9 +21,17 @@
     "storage_bin": "M01 09.06",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\59-1068252-00010\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_4.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_5.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068252-00010/image_6.png"
+    ],
+    "description": "industrial spare part: a small motor with a small motor on the side"
   },
   {
     "material_id": "50-1775531-90031",
@@ -25,9 +39,14 @@
     "storage_bin": "M01 18.25",
     "total_stock": 45,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\50-1775531-90031\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/50-1775531-90031/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/50-1775531-90031/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/50-1775531-90031/image_3.png"
+    ],
+    "description": "industrial spare part: a stainless rod rod rod rod rod rod rod rod rod rod rod rod rod rod rod rod rod rod rod"
   },
   {
     "material_id": "59-1068431-00684",
@@ -35,9 +54,15 @@
     "storage_bin": "M01 33.16",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068431-00684\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00684/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00684/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00684/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00684/image_4.png"
+    ],
+    "description": "industrial spare part: a piece of metal that is sitting on a table"
   },
   {
     "material_id": "59-1068431-00529",
@@ -45,9 +70,14 @@
     "storage_bin": "M01 38.12",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\59-1068431-00529\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00529/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00529/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00529/image_3.png"
+    ],
+    "description": "industrial spare part: a white plastic box with a latch and latch"
   },
   {
     "material_id": "59-1068431-00117",
@@ -55,9 +85,15 @@
     "storage_bin": "M01 38.29",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068431-00117\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00117/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00117/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00117/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068431-00117/image_4.png"
+    ],
+    "description": "industrial spare part: a stainless threaded bolt on a white surface"
   },
   {
     "material_id": "59-1068331-00005",
@@ -65,9 +101,15 @@
     "storage_bin": "M01 41.06",
     "total_stock": 100,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068331-00005\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068331-00005/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068331-00005/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068331-00005/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068331-00005/image_4.png"
+    ],
+    "description": "industrial spare part: a brass screw screw"
   },
   {
     "material_id": "59-1014230-00115",
@@ -75,9 +117,13 @@
     "storage_bin": "M01 41.12",
     "total_stock": 100,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1014230-00115\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1014230-00115/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1014230-00115/image_2.png"
+    ],
+    "description": "industrial spare part: a small screw with a small screw in the middle"
   },
   {
     "material_id": "59-1014230-00867",
@@ -85,9 +131,14 @@
     "storage_bin": "M01 48.02",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\59-1014230-00867\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1014230-00867/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1014230-00867/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1014230-00867/image_3.png"
+    ],
+    "description": "industrial spare part: two black coas on a white background"
   },
   {
     "material_id": "59-1068683-00013",
@@ -95,9 +146,15 @@
     "storage_bin": "M01 48.27",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\59-1068683-00013\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068683-00013/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068683-00013/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068683-00013/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068683-00013/image_5.png"
+    ],
+    "description": "industrial spare part: a screw screw with a black plastic head"
   },
   {
     "material_id": "59-1068439-00006",
@@ -105,9 +162,15 @@
     "storage_bin": "M01 50.01",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\59-1068439-00006\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068439-00006/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068439-00006/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068439-00006/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068439-00006/image_4.png"
+    ],
+    "description": "industrial spare part: a pen sitting on top of a piece of paper"
   },
   {
     "material_id": "2053800921074",
@@ -115,9 +178,14 @@
     "storage_bin": "M02 01.16",
     "total_stock": 5,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\2053800921074\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2053800921074/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2053800921074/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2053800921074/image_3.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a piece of paper on it"
   },
   {
     "material_id": "9-1980900-5",
@@ -125,9 +193,16 @@
     "storage_bin": "M02 20.09",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\9-1980900-5\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980900-5/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980900-5/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980900-5/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980900-5/image_4.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980900-5/image_5.png"
+    ],
+    "description": "industrial spare part: a pen is sitting on top of a piece of paper"
   },
   {
     "material_id": "9-1981022-8",
@@ -135,9 +210,13 @@
     "storage_bin": "M02 33.01",
     "total_stock": 60,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\9-1981022-8\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1981022-8/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1981022-8/image_2.png"
+    ],
+    "description": "industrial spare part: a black object is hanging on the wall"
   },
   {
     "material_id": "21-1958120-00102",
@@ -145,9 +224,12 @@
     "storage_bin": "M04 02.18",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\21-1958120-00102\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1958120-00102/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a small black piece of paper on it"
   },
   {
     "material_id": "21-1884596-00510",
@@ -155,9 +237,12 @@
     "storage_bin": "M04 03.20",
     "total_stock": 10,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\21-1884596-00510\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1884596-00510/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a black and white pattern"
   },
   {
     "material_id": "21-1075810-00534",
@@ -165,9 +250,12 @@
     "storage_bin": "M04 07.05",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\21-1075810-00534\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1075810-00534/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a black handle"
   },
   {
     "material_id": "51-1775110-51171",
@@ -175,9 +263,14 @@
     "storage_bin": "M04 13.08",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\51-1775110-51171\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/51-1775110-51171/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/51-1775110-51171/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/51-1775110-51171/image_3.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a hole in it"
   },
   {
     "material_id": "20-0994707-00061",
@@ -185,9 +278,12 @@
     "storage_bin": "M04 19.04",
     "total_stock": 30,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\20-0994707-00061\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/20-0994707-00061/image_1.png"
+    ],
+    "description": "industrial spare part: a white toilet with a toilet paper and a toilet brush"
   },
   {
     "material_id": "21-1018204-00520",
@@ -195,9 +291,12 @@
     "storage_bin": "M04 28.19",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\21-1018204-00520\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1018204-00520/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of metal is shown in the picture"
   },
   {
     "material_id": "21-1776178-00322",
@@ -205,9 +304,12 @@
     "storage_bin": "M04 33.18",
     "total_stock": 12,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\21-1776178-00322\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1776178-00322/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a black handle"
   },
   {
     "material_id": "21-1776016-01314",
@@ -215,9 +317,12 @@
     "storage_bin": "M04 38.18",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\21-1776016-01314\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1776016-01314/image_1.png"
+    ],
+    "description": "industrial spare part: a pen is sitting on a piece of paper"
   },
   {
     "material_id": "51-1764200-D0265",
@@ -225,9 +330,12 @@
     "storage_bin": "M04 40.04",
     "total_stock": 30,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\51-1764200-D0265\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/51-1764200-D0265/image_1.png"
+    ],
+    "description": "industrial spare part: a bird is perched on a glass display"
   },
   {
     "material_id": "28-1963526-00079",
@@ -235,9 +343,14 @@
     "storage_bin": "M04 40.21",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\28-1963526-00079\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/28-1963526-00079/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/28-1963526-00079/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/28-1963526-00079/image_3.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a pencil on it"
   },
   {
     "material_id": "28-1776280-00320",
@@ -245,9 +358,12 @@
     "storage_bin": "M04 45.02",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\28-1776280-00320\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/28-1776280-00320/image_1.png"
+    ],
+    "description": "industrial spare part: a white box with a black handle"
   },
   {
     "material_id": "51-1776500-10204",
@@ -255,9 +371,12 @@
     "storage_bin": "M04 48.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\51-1776500-10204\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/51-1776500-10204/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a small hole in it"
   },
   {
     "material_id": "11-1058025-02497",
@@ -265,9 +384,12 @@
     "storage_bin": "M05 03.18",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1058025-02497\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1058025-02497/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-1058025-02498",
@@ -275,9 +397,12 @@
     "storage_bin": "M05 03.18",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1058025-02498\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1058025-02498/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in a room"
   },
   {
     "material_id": "11-0020743-02364",
@@ -285,9 +410,12 @@
     "storage_bin": "M05 04.05",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02364\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02364/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a piece of metal"
   },
   {
     "material_id": "11-0020743-02345",
@@ -295,9 +423,12 @@
     "storage_bin": "M05 04.08",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02345\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02345/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a black ink on it"
   },
   {
     "material_id": "11-0020743-02360",
@@ -305,9 +436,12 @@
     "storage_bin": "M05 04.08",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02360\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02360/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of metal is shown in the corner of a wall"
   },
   {
     "material_id": "11-1763860-00095",
@@ -315,9 +449,12 @@
     "storage_bin": "M05 04.13",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1763860-00095\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1763860-00095/image_1.png"
+    ],
+    "description": "industrial spare part: a metal box with a black latch"
   },
   {
     "material_id": "11-1958989-03005",
@@ -325,9 +462,14 @@
     "storage_bin": "M05 04.21",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-1958989-03005\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1958989-03005/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1958989-03005/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1958989-03005/image_3.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a hole in it"
   },
   {
     "material_id": "11-1958989-03775",
@@ -335,9 +477,12 @@
     "storage_bin": "M05 04.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-1958989-03775\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1958989-03775/image_1.png"
+    ],
+    "description": "industrial spare part: a metal door with a lock on it"
   },
   {
     "material_id": "19-1829660-01135",
@@ -345,9 +490,12 @@
     "storage_bin": "M05 05.13",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\19-1829660-01135\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/19-1829660-01135/image_1.png"
+    ],
+    "description": "industrial spare part: a metal refrigerator with numbers on it"
   },
   {
     "material_id": "11-1058076-00451",
@@ -355,9 +503,12 @@
     "storage_bin": "M05 19.14",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-1058076-00451\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1058076-00451/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing next to a wall"
   },
   {
     "material_id": "11-1829701-10404",
@@ -365,9 +516,12 @@
     "storage_bin": "M05 28.06",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1829701-10404\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1829701-10404/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a door"
   },
   {
     "material_id": "59-1068320-00006",
@@ -375,9 +529,16 @@
     "storage_bin": "M05 28.17",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\59-1068320-00006\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068320-00006/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068320-00006/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068320-00006/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068320-00006/image_4.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068320-00006/image_5.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a drawing on it"
   },
   {
     "material_id": "11-1962821-03518",
@@ -385,9 +546,12 @@
     "storage_bin": "M05 29.20",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-1962821-03518\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1962821-03518/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing next to a wall"
   },
   {
     "material_id": "11-1829367-02151",
@@ -395,9 +559,12 @@
     "storage_bin": "M05 37.04",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1829367-02151\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1829367-02151/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-1829367-02152",
@@ -405,9 +572,12 @@
     "storage_bin": "M05 37.04",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1829367-02152\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1829367-02152/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a pen on it"
   },
   {
     "material_id": "11-1829367-02153",
@@ -415,9 +585,12 @@
     "storage_bin": "M05 37.04",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1829367-02153\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1829367-02153/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man with a gun"
   },
   {
     "material_id": "21-1780220-00120",
@@ -425,9 +598,12 @@
     "storage_bin": "M05 39.05",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\21-1780220-00120\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/21-1780220-00120/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a computer"
   },
   {
     "material_id": "11-1776090-02274",
@@ -435,9 +611,12 @@
     "storage_bin": "M05 39.19",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\11-1776090-02274\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1776090-02274/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02332",
@@ -445,9 +624,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02332\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02332/image_1.png"
+    ],
+    "description": "industrial spare part: a white wall with a black and white sign"
   },
   {
     "material_id": "11-0020743-02336",
@@ -455,9 +637,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02336\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02336/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a refrigerator"
   },
   {
     "material_id": "11-0020743-02337",
@@ -465,9 +650,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02337\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02337/image_1.png"
+    ],
+    "description": "industrial spare part: a white wall with a black and white sign"
   },
   {
     "material_id": "11-0020743-02338",
@@ -475,9 +663,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 7,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02338\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02338/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02339",
@@ -485,9 +676,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02339\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02339/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a black and white image"
   },
   {
     "material_id": "11-0020743-02341",
@@ -495,9 +689,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02341\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02341/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02342",
@@ -505,9 +702,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02342\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02342/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02344",
@@ -515,9 +715,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02344\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02344/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man with a knife"
   },
   {
     "material_id": "11-0020743-02346",
@@ -525,9 +728,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02346\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02346/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a black handle"
   },
   {
     "material_id": "11-0020743-02348",
@@ -535,9 +741,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02348\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02348/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02349",
@@ -545,9 +754,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02349\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02349/image_1.png"
+    ],
+    "description": "industrial spare part: a white box with a black latch on it"
   },
   {
     "material_id": "11-0020743-02352",
@@ -555,9 +767,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02352\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02352/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02353",
@@ -565,9 +780,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02353\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02353/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a black handle"
   },
   {
     "material_id": "11-0020743-02356",
@@ -575,9 +793,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 11,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02356\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02356/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-02357",
@@ -585,9 +806,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02357\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02357/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man with a tie"
   },
   {
     "material_id": "11-0020743-02358",
@@ -595,9 +819,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02358\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02358/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing next to a wall"
   },
   {
     "material_id": "11-0020743-02374",
@@ -605,9 +832,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02374\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02374/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with writing on it"
   },
   {
     "material_id": "11-0020743-02375",
@@ -615,9 +845,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 5,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02375\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02375/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-02378",
@@ -625,9 +858,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 7,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02378\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02378/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-02380",
@@ -635,9 +871,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02380\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02380/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-02482",
@@ -645,9 +884,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02482\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02482/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper with a hole in it"
   },
   {
     "material_id": "11-0020743-02483",
@@ -655,9 +897,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02483\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02483/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-02484",
@@ -665,9 +910,12 @@
     "storage_bin": "M05 42.21",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-02484\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-02484/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing next to a wall"
   },
   {
     "material_id": "11-1829701-22101",
@@ -675,9 +923,12 @@
     "storage_bin": "M05 45.06",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-1829701-22101\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-1829701-22101/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a person holding a cell"
   },
   {
     "material_id": "11-0020743-03252",
@@ -685,9 +936,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-03252\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-03252/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-03261",
@@ -695,9 +949,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-03261\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-03261/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-03348",
@@ -705,9 +962,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-03348\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-03348/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a bathroom"
   },
   {
     "material_id": "11-0020743-03349",
@@ -715,9 +975,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-03349\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-03349/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man in a suit"
   },
   {
     "material_id": "11-0020743-11061",
@@ -725,9 +988,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11061\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11061/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-11062",
@@ -735,9 +1001,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11062\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11062/image_1.png"
+    ],
+    "description": "industrial spare part: a white box with a black handle"
   },
   {
     "material_id": "11-0020743-11067",
@@ -745,9 +1014,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11067\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11067/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing in front of a wall"
   },
   {
     "material_id": "11-0020743-11071",
@@ -755,9 +1027,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11071\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11071/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a door open"
   },
   {
     "material_id": "11-0020743-11072",
@@ -765,9 +1040,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11072\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11072/image_1.png"
+    ],
+    "description": "industrial spare part: a white refrigerator with a door open"
   },
   {
     "material_id": "11-0020743-11091",
@@ -775,9 +1053,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11091\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11091/image_1.png"
+    ],
+    "description": "industrial spare part: a white wall with a black and white sign"
   },
   {
     "material_id": "11-0020743-11101",
@@ -785,9 +1066,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 8,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11101\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11101/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit"
   },
   {
     "material_id": "11-0020743-11102",
@@ -795,9 +1079,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11102\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11102/image_1.png"
+    ],
+    "description": "industrial spare part: a white wall with a black and white sign"
   },
   {
     "material_id": "11-0020743-11103",
@@ -805,9 +1092,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11103\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11103/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie holding a pen"
   },
   {
     "material_id": "11-0020743-11111",
@@ -815,9 +1105,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 6,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11111\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11111/image_1.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a man holding a cigarette"
   },
   {
     "material_id": "11-0020743-11121",
@@ -825,9 +1118,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11121\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11121/image_1.png"
+    ],
+    "description": "industrial spare part: a man in a suit and tie standing next to a wall"
   },
   {
     "material_id": "11-0020743-11124",
@@ -835,9 +1131,12 @@
     "storage_bin": "M05 46.11",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 4,
-    "image_path": "data/hwl_images\\11-0020743-11124\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/11-0020743-11124/image_1.png"
+    ],
+    "description": "industrial spare part: a woman in a white shirt and black pants"
   },
   {
     "material_id": "54-1068999-00095",
@@ -845,9 +1144,14 @@
     "storage_bin": "M05 46.16",
     "total_stock": 5,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\54-1068999-00095\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00095/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00095/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00095/image_3.png"
+    ],
+    "description": "industrial spare part: a metal handle on a white background"
   },
   {
     "material_id": "54-1068999-00092",
@@ -855,9 +1159,14 @@
     "storage_bin": "M05 46.17",
     "total_stock": 5,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\54-1068999-00092\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00092/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00092/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/54-1068999-00092/image_3.png"
+    ],
+    "description": "industrial spare part: a metal object on a white surface"
   },
   {
     "material_id": "9-1980991-7",
@@ -865,9 +1174,12 @@
     "storage_bin": "M06 00.00",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\9-1980991-7\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980991-7/image_1.png"
+    ],
+    "description": "industrial spare part: a machine that is sitting on a table"
   },
   {
     "material_id": "9-1980924-4",
@@ -875,9 +1187,12 @@
     "storage_bin": "M06 14.13",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\9-1980924-4\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1980924-4/image_1.png"
+    ],
+    "description": "industrial spare part: a green and white box with buttons and buttons"
   },
   {
     "material_id": "59-1068209-00027",
@@ -885,9 +1200,14 @@
     "storage_bin": "M07 24.02B",
     "total_stock": 4,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\59-1068209-00027\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068209-00027/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068209-00027/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068209-00027/image_3.png"
+    ],
+    "description": "industrial spare part: a black and silver microphone with a red cord"
   },
   {
     "material_id": "59-1068040-00020",
@@ -895,9 +1215,16 @@
     "storage_bin": "M07 26.05",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\59-1068040-00020\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068040-00020/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068040-00020/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068040-00020/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068040-00020/image_4.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068040-00020/image_5.png"
+    ],
+    "description": "industrial spare part: a metal housing with a screw and screw"
   },
   {
     "material_id": "59-1068267-00344",
@@ -905,9 +1232,15 @@
     "storage_bin": "M08 17.15",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068267-00344\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068267-00344/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068267-00344/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068267-00344/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068267-00344/image_4.png"
+    ],
+    "description": "industrial spare part: a white wall"
   },
   {
     "material_id": "59-1068344-00012",
@@ -915,9 +1248,12 @@
     "storage_bin": "M08 25.06",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068344-00012\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068344-00012/image_1.png"
+    ],
+    "description": "industrial spare part: a piece of paper is being held in a hand"
   },
   {
     "material_id": "2277057-7",
@@ -925,9 +1261,14 @@
     "storage_bin": "M13 03.02",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\2277057-7\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277057-7/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277057-7/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277057-7/image_3.png"
+    ],
+    "description": "industrial spare part: a box with wires inside of it"
   },
   {
     "material_id": "2277058-2",
@@ -935,9 +1276,14 @@
     "storage_bin": "M13 03.03",
     "total_stock": 3,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\2277058-2\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277058-2/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277058-2/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277058-2/image_3.png"
+    ],
+    "description": "industrial spare part: a box with a green and yellow cable inside"
   },
   {
     "material_id": "9-1981019-4",
@@ -945,9 +1291,13 @@
     "storage_bin": "M14 01.02",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\9-1981019-4\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1981019-4/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/9-1981019-4/image_2.png"
+    ],
+    "description": "industrial spare part: a red disc in a cardboard box"
   },
   {
     "material_id": "59-1068176-86213",
@@ -955,9 +1305,12 @@
     "storage_bin": "M24 14.18",
     "total_stock": 100,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\59-1068176-86213\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068176-86213/image_1.png"
+    ],
+    "description": "industrial spare part: a white box with a black handle"
   },
   {
     "material_id": "59-1068002-00045",
@@ -965,9 +1318,15 @@
     "storage_bin": "M24 20.08",
     "total_stock": 2,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\59-1068002-00045\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068002-00045/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068002-00045/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068002-00045/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068002-00045/image_4.png"
+    ],
+    "description": "industrial spare part: a black and white photo of a screw"
   },
   {
     "material_id": "PM05380165",
@@ -975,9 +1334,12 @@
     "storage_bin": "M24 29.19",
     "total_stock": 1,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 3,
-    "image_path": "data/hwl_images\\PM05380165\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/PM05380165/image_1.png"
+    ],
+    "description": "industrial spare part: a white toilet with a black handle"
   },
   {
     "material_id": "2277146-8",
@@ -985,9 +1347,15 @@
     "storage_bin": "M30 36.02",
     "total_stock": 500,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\2277146-8\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277146-8/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277146-8/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277146-8/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/2277146-8/image_4.png"
+    ],
+    "description": "industrial spare part: a white box with screws and screws"
   },
   {
     "material_id": "59-1068347-00003",
@@ -995,8 +1363,14 @@
     "storage_bin": "M54 02.02",
     "total_stock": 33,
     "storage_location": "OKSP",
-    "plant": "0538",
+    "plant": "538",
     "duration": 0,
-    "image_path": "data/hwl_images\\59-1068347-00003\\image_1.png"
+    "images": [
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068347-00003/image_1.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068347-00003/image_2.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068347-00003/image_3.png",
+      "C:/Users/ajays/Desktop/Spare_Part_Recognition/data/hwl_images/59-1068347-00003/image_4.png"
+    ],
+    "description": "industrial spare part: a red handle on a white wall"
   }
 ]
