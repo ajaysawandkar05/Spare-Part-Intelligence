@@ -3,8 +3,6 @@ __pycache__/
 venv/
 .env
 node_modules/
-*.npz
 data/hwl_images/
 data/hwl_multi_images/
 photos_query/
-*.xlsx

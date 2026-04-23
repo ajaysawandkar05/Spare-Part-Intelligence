@@ -22,11 +22,20 @@ from typing import Optional
 
 from clip_engine import CLIPEngine
 
+
 app = FastAPI(title="HWL Spare Parts Retrieval API", version="1.0.0")
+
+# Mount the static directory to serve frontend assets
+app.mount("/assets", StaticFiles(directory="static/assets"), name="assets")
+
+# Serve index.html at root
+@app.get("/")
+def read_index():
+    return FileResponse(os.path.join("static", "index.html"))
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","http://localhost:5174"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

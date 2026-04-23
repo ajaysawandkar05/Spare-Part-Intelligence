@@ -16,10 +16,13 @@ Architecture:
   Both         →  visual_weight * visual + text_weight * text  →  final_score
 """
 
+
 import os
 import json
 import random
 from collections import defaultdict
+import unicodedata
+import re
 
 import numpy as np
 import torch
@@ -42,6 +45,7 @@ PART_TYPES = [
 
 
 class CLIPEngine:
+
     def __init__(self, dataset_json: str, index_path: str, images_dir: str):
         self.dataset_json = dataset_json
         self.index_path   = index_path
@@ -71,6 +75,7 @@ class CLIPEngine:
 
         self._metadata:     dict = {}
         self._descriptions: dict = {}
+        self._erp_descriptions: dict = {}  # Always initialize to avoid AttributeError
 
     # ──────────────────────────────────────────
     # Lifecycle
@@ -78,6 +83,7 @@ class CLIPEngine:
     def load(self):
         self._load_model()
         self._load_metadata()
+        self._load_erp_descriptions()
         if os.path.exists(self.index_path):
             self._load_index()
         else:
@@ -104,6 +110,32 @@ class CLIPEngine:
         with open(self.dataset_json) as f:
             dataset = json.load(f)
         self._metadata = {item["material_id"]: item for item in dataset}
+        
+    def _load_erp_descriptions(self):
+        """
+        Loads ERP/SAP descriptions from hwl_erp_descriptions.json.
+        Format: [{"Material": "59-1068347-00003", "Material Description": "ORANJE - OOGBOUT M16"}]
+        """
+        erp_path = os.path.join(os.path.dirname(self.dataset_json), "hwl_erp_descriptions.json")
+        if os.path.exists(erp_path):
+            with open(erp_path, encoding="utf-8") as f:
+                data = json.load(f)
+            # Always load all materials, even if description is null
+            self._erp_descriptions = {
+                str(item["Material"]): str(item.get("Material Description") or "")
+                for item in data
+            }
+            print(f"[CLIPEngine] Loaded {len(self._erp_descriptions)} ERP descriptions (including empty).")
+            # Print a few samples for debug
+            for i, (k, v) in enumerate(self._erp_descriptions.items()):
+                print(f"  Sample {i+1}: {k} -> {v}")
+                if i >= 4:
+                    break
+            # Print a known material for verification
+            test_id = "59-1068252-00010"
+            print(f"[DEBUG] Test ERP desc for {test_id}: '{self._erp_descriptions.get(test_id)}'")
+        else:
+            print("[CLIPEngine] No hwl_erp_descriptions.json — keyword search uses Qwen desc only.")
 
     def _load_index(self):
         data = np.load(self.index_path, allow_pickle=True)
@@ -146,6 +178,7 @@ class CLIPEngine:
     # ──────────────────────────────────────────
     def rebuild(self):
         self._load_metadata()
+        self._load_erp_descriptions()
 
         desc_path = os.path.join(os.path.dirname(self.dataset_json), "hwl_descriptions.json")
         descriptions = {}
@@ -225,6 +258,9 @@ class CLIPEngine:
             text_parts = []
             if mat_id in descriptions:
                 text_parts.append(descriptions[mat_id])
+            erp = self._erp_descriptions.get(mat_id, "")
+            if erp:
+                text_parts.append(erp)
             text_parts.append(f"material id {mat_id}")
             if item.get("storage_bin"):
                 text_parts.append(f"storage bin {item['storage_bin']}")
@@ -299,6 +335,55 @@ class CLIPEngine:
             )
             emb = emb / emb.norm(dim=-1, keepdim=True)
         return emb.squeeze().cpu().numpy()
+    
+    def _keyword_score(self, query: str, material_id: str) -> float:
+        """
+        Scores how well a text query matches a material's ERP description or material_id only.
+        Uses case-insensitive substring and partial matching.
+        """
+        def normalize(s: str) -> str:
+            s = s.lower().strip()
+            s = unicodedata.normalize("NFKD", s)
+            s = "".join(c for c in s if not unicodedata.combining(c))
+            s = re.sub(r"[^\w\s]", " ", s)
+            return re.sub(r"\s+", " ", s).strip()
+
+        # Try both as-is and str() for material_id to avoid key mismatch
+        erp_desc  = self._erp_descriptions.get(material_id, "")
+        if not erp_desc and str(material_id) in self._erp_descriptions:
+            erp_desc = self._erp_descriptions[str(material_id)]
+        # Combine all searchable text (ERP + material_id only)
+        searchable = f"{erp_desc if erp_desc else ''} {material_id}"
+        searchable_norm = normalize(searchable)
+        q_norm = normalize(query)
+
+
+        if not q_norm or not searchable_norm:
+            print("[DEBUG] Empty query or searchable string, returning 0.0")
+            return 0.0
+
+        # Case-insensitive substring match (strongest)
+        # Exact substring → strong boost
+        if q_norm in searchable_norm:
+           return 1.0
+
+# 🔥 Token-level fuzzy matching
+        query_words = [w for w in q_norm.split() if len(w) >= 2]
+        search_tokens = searchable_norm.split()
+
+        score = 0
+        for qw in query_words:
+            for token in search_tokens:
+        # partial match
+                if qw in token:
+                   score += 1
+                   break
+        # fuzzy match (typo tolerance)
+                elif abs(len(qw) - len(token)) <= 2 and sum(c1 != c2 for c1, c2 in zip(qw, token[:len(qw)])) <= 2:
+                    score += 0.7
+                    break
+
+        return score / len(query_words) if query_words else 0.0
 
     
 
@@ -330,12 +415,10 @@ class CLIPEngine:
         # ── Encode query ──────────────────────────────────────────
         q_clip = None
         q_dino = None
-        q_txt  = None
 
         if image_path:
             q_clip, q_dino = self._encode_image(image_path)
-        if text:
-            q_txt = self._encode_text(text)
+        
 
         # ── Visual scoring — MAX POOL per material ────────────────
         # DINOv2 (fine-grained) weighted 70%, CLIP visual 30%
@@ -354,37 +437,33 @@ class CLIPEngine:
                     fused = 0.7 * dino_score + 0.3 * float(clip_raw[idx])
                     mat_visual[mid] = max(mat_visual[mid], fused)
 
-        elif q_txt is not None:
-            # Cross-modal: text query vs CLIP image index
-            clip_raw = self._embeddings @ q_txt
-            for idx, mid in enumerate(self._material_ids):
-                if mid in allowed_ids:
-                    mat_visual[mid] = max(mat_visual[mid], float(clip_raw[idx]))
 
         # ── Text description scoring ──────────────────────────────
         # CLIP text query vs CLIP text description embeddings
-        mat_text = defaultdict(float)
-        if q_txt is not None and self._txt_embeddings is not None:
-            txt_raw = self._txt_embeddings @ q_txt
-            for idx, mid in enumerate(self._txt_material_ids):
-                if mid in allowed_ids:
-                    mat_text[mid] = float(txt_raw[idx])
+        # Only use keyword score for text search (ignore CLIP text embeddings)
+        mat_keyword = defaultdict(float)
+        if text:
+            for mid in allowed_ids:
+                mat_keyword[mid] = self._keyword_score(text, mid)
 
         # ── Fuse visual + text ────────────────────────────────────
-        all_mats   = set(mat_visual) | set(mat_text)
+        all_mats   = set(mat_visual) | set(mat_keyword)
         raw_scores = {}
 
         for mid in all_mats:
             v = mat_visual.get(mid, 0.0)
-            t = mat_text.get(mid, 0.0)
+            k = mat_keyword.get(mid, 0.0)
 
             if image_path and text:
-                raw_scores[mid] = visual_weight * v + text_weight * t
+        # 🔥 Best hybrid
+               raw_scores[mid] = 0.6 * v + 0.4 * k
+
             elif image_path:
-                raw_scores[mid] = v
+                 raw_scores[mid] = v
+
             else:
-                # Text only: 35% cross-modal + 65% description match
-                raw_scores[mid] = 0.35 * v + 0.65 * t
+        # 🔥 PURE TEXT SEARCH
+                raw_scores[mid] = k
 
 
         # ── Use RAW scores directly (no temperature scaling) ─────
@@ -404,6 +483,7 @@ class CLIPEngine:
         results = []
         for rank, (mid, score) in enumerate(ranked, 1):
             meta = self._metadata.get(mid, {})
+            erp_d   = self._erp_descriptions.get(mid, "")
             results.append({
                 "rank":             rank,
                 "material_id":      mid,
@@ -411,12 +491,14 @@ class CLIPEngine:
                 "final_score":      round(score, 3),
                 # Raw cosine for visual/text breakdowns — meaningful to user
                 "visual_score":     round(float(mat_visual.get(mid, 0.0)), 4) if image_path else None,
-                "text_score":       round(float(mat_text.get(mid, 0.0)),   4) if text       else None,
+                "text_score":       round(float(mat_keyword.get(mid, 0.0)),   4) if text       else None,
+                "keyword_score":    round(float(mat_keyword.get(mid, 0.0)), 4) if text       else None,
                 "storage_bin":      meta.get("storage_bin"),
                 "total_stock":      meta.get("total_stock"),
                 "storage_location": meta.get("storage_location"),
                 "plant":            meta.get("plant"),
                 "duration":         meta.get("duration"),
+                "description":      meta.get("description"),
                 "image_url":        f"/api/image/{mid}",
                 "confidence":       confidence if rank == 1 else None,
             })

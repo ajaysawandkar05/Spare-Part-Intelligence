@@ -1,202 +1,163 @@
 import { useState, useRef, useCallback } from "react";
 
 const PART_TYPES = [
-  "All",
-  "photoelectric sensor",
-  "relay",
-  "actuator",
-  "pneumatic",
-  "connector",
-  "bracket",
-  "cable",
-  "screw",
-  "handle",
-  "valve",
-  "spring",
-  "pin",
-  "shaft",
-  "drill bit",
-  "cutting",
-  "terminal block",
-  "control panel",
+  "All","photoelectric sensor","relay","actuator","pneumatic","connector",
+  "bracket","cable","screw","handle","valve","spring","pin","shaft",
+  "drill bit","cutting","terminal block","control panel",
 ];
 
 export default function SearchPanel({ onSearch, loading }) {
-  const [image, setImage]               = useState(null);
-  const [imagePreview, setImagePreview] = useState(null);
-  const [text, setText]                 = useState("");
-  const [dragging, setDragging]         = useState(false);
-  const [visualWeight, setVisualWeight] = useState(0.5);
-  const [topK, setTopK]                 = useState(5);
-  const [showAdvanced, setShowAdvanced] = useState(false);
-  const [partType, setPartType]         = useState("All");
+  const [image, setImage]           = useState(null);
+  const [preview, setPreview]       = useState(null);
+  const [text, setText]             = useState("");
+  const [dragging, setDragging]     = useState(false);
+  const [visualWeight, setVW]       = useState(0.5);
+  const [topK, setTopK]             = useState(5);
+  const [showAdv, setShowAdv]       = useState(false);
+  const [partType, setPartType]     = useState("All");
   const fileRef = useRef();
 
-  const setFile = (file) => {
-    if (!file) return;
-    setImage(file);
-    setImagePreview(URL.createObjectURL(file));
+  const setFile = (f) => {
+    if (!f) return;
+    setImage(f);
+    setPreview(URL.createObjectURL(f));
   };
+
+  const clearImage = () => { setImage(null); setPreview(null); if (fileRef.current) fileRef.current.value = ""; };
 
   const handleDrop = useCallback((e) => {
-    e.preventDefault();
-    setDragging(false);
-    const file = e.dataTransfer.files?.[0];
-    if (file && file.type.startsWith("image/")) setFile(file);
+    e.preventDefault(); setDragging(false);
+    const f = e.dataTransfer.files?.[0];
+    if (f?.type.startsWith("image/")) setFile(f);
   }, []);
 
-  const handleDragOver  = (e) => { e.preventDefault(); setDragging(true); };
-  const handleDragLeave = () => setDragging(false);
-
-  const clearImage = () => {
-    setImage(null);
-    setImagePreview(null);
-    if (fileRef.current) fileRef.current.value = "";
-  };
-
-  const handleSubmit = () => {
-    onSearch({
-      image,
-      text,
-      visualWeight,
-      textWeight: parseFloat((1 - visualWeight).toFixed(2)),
-      topK,
-      filterPartType: partType === "All" ? null : partType,
-    });
-  };
-
-  const canSearch = (image || text.trim()) && !loading;
   const mode = image && text ? "multimodal" : image ? "visual" : text ? "text" : null;
+  const canSearch = (image || text.trim()) && !loading;
+
+  const modeLabels = { multimodal:"⬡ Multi-modal", visual:"◈ Visual Only", text:"◎ Text Only" };
+  const modeColors = { multimodal:"var(--amber)", visual:"var(--blue)", text:"var(--teal)" };
 
   return (
-    <section className="search-panel">
-      <div className="search-grid">
+    <section className="sp-wrap">
+      {/* Panel header */}
+      <div className="sp-head">
+        <div className="sp-head-left">
+          <span className="sp-head-label">SEARCH PARAMETERS</span>
+          {mode && (
+            <span className="sp-mode-badge" style={{ color: modeColors[mode], borderColor: modeColors[mode] }}>
+              {modeLabels[mode]}
+            </span>
+          )}
+        </div>
+        <button className="sp-adv-toggle" onClick={() => setShowAdv(p => !p)}>
+          {showAdv ? "Hide advanced ▲" : "Advanced ▼"}
+        </button>
+      </div>
 
-        {/* Upload Zone */}
+      <div className="sp-grid">
+        {/* Upload zone */}
         <div
-          className={`upload-zone ${dragging ? "upload-zone--drag" : ""} ${imagePreview ? "upload-zone--filled" : ""}`}
+          className={`sp-upload${dragging ? " sp-upload--drag" : ""}${preview ? " sp-upload--filled" : ""}`}
           onDrop={handleDrop}
-          onDragOver={handleDragOver}
-          onDragLeave={handleDragLeave}
-          onClick={() => !imagePreview && fileRef.current?.click()}
+          onDragOver={e => { e.preventDefault(); setDragging(true); }}
+          onDragLeave={() => setDragging(false)}
+          onClick={() => !preview && fileRef.current?.click()}
         >
-          <input
-            ref={fileRef}
-            type="file"
-            accept="image/*"
-            style={{ display: "none" }}
-            onChange={(e) => setFile(e.target.files?.[0])}
-          />
-          {imagePreview ? (
-            <div className="image-preview-wrap">
-              <img src={imagePreview} alt="Query" className="image-preview" />
-              <button className="clear-btn" onClick={(e) => { e.stopPropagation(); clearImage(); }}>
-                ✕
-              </button>
-              <div className="preview-label">Query Image</div>
+          <input ref={fileRef} type="file" accept="image/*" style={{ display:"none" }}
+            onChange={e => setFile(e.target.files?.[0])} />
+          {preview ? (
+            <div className="sp-preview-wrap">
+              <img src={preview} alt="Query" className="sp-preview-img" />
+              <button className="sp-clear-btn" onClick={e => { e.stopPropagation(); clearImage(); }}>✕</button>
+              <div className="sp-preview-badge">QUERY IMAGE</div>
             </div>
           ) : (
-            <div className="upload-placeholder">
-              <svg className="upload-icon" viewBox="0 0 48 48" fill="none">
-                <rect x="6" y="6" width="36" height="36" rx="6" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M24 32V20M24 20l-5 5M24 20l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                <path d="M14 38c0-4 2-6 10-6s10 2 10 6" stroke="currentColor" strokeWidth="1" strokeLinecap="round" opacity="0.4" />
-              </svg>
-              <p className="upload-title">Drop image here</p>
-              <p className="upload-sub">or click to browse · JPG, PNG, WEBP</p>
+            <div className="sp-upload-ph">
+              <div className="sp-upload-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <path d="M3 9h18M9 21V9"/>
+                  <circle cx="6.5" cy="6" r="0.5" fill="currentColor"/>
+                </svg>
+              </div>
+              <p className="sp-upload-title">Drop part image here</p>
+              <p className="sp-upload-sub">or click to browse · JPG, PNG, WEBP</p>
+              <div className="sp-upload-corners">
+                {["tl","tr","bl","br"].map(p => <span key={p} className={`sp-corner sp-corner--${p}`} />)}
+              </div>
             </div>
           )}
         </div>
 
-        {/* Right column */}
-        <div className="search-controls">
-          <div className="mode-badge-wrap">
-            {mode && (
-              <span className={`mode-badge mode-badge--${mode}`}>
-                {mode === "multimodal" ? "⬡ Multi-modal" : mode === "visual" ? "◈ Visual" : "◎ Text"}
-              </span>
-            )}
-          </div>
-
-          {/* Part type filter — METHOD 1 */}
-          <div className="filter-row">
-            <span className="filter-label">Part type</span>
-            <select
-              className="filter-select"
-              value={partType}
-              onChange={(e) => setPartType(e.target.value)}
-            >
-              {PART_TYPES.map((t) => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </select>
-          </div>
-
-          <div className="text-input-wrap">
-            <textarea
-              className="text-input"
-              placeholder="Describe the part… e.g. 'Omron M18 infrared sensor'"
+        {/* Controls */}
+        <div className="sp-controls">
+          {/* Text input */}
+          <div className="sp-field">
+            <label className="sp-field-label">DESCRIPTION / PART ID</label>
+            <input
+              className="sp-input"
+              type="text"
+              placeholder="e.g. 'Festo solenoid valve 24V DC' or material ID..."
               value={text}
-              onChange={(e) => setText(e.target.value)}
-              rows={4}
-              onKeyDown={(e) => { if (e.key === "Enter" && e.ctrlKey) handleSubmit(); }}
+              onChange={e => setText(e.target.value)}
+              onKeyDown={e => e.key === "Enter" && canSearch && onSearch({ image, text, visualWeight, textWeight: +(1-visualWeight).toFixed(2), topK, filterPartType: partType === "All" ? null : partType })}
             />
           </div>
 
-          <button
-            className="advanced-toggle"
-            onClick={() => setShowAdvanced(!showAdvanced)}
-          >
-            {showAdvanced ? "▲" : "▼"} Advanced options
-          </button>
+          {/* Part type */}
+          <div className="sp-field">
+            <label className="sp-field-label">PART TYPE FILTER</label>
+            <select className="sp-select" value={partType} onChange={e => setPartType(e.target.value)}>
+              {PART_TYPES.map(t => <option key={t} value={t}>{t}</option>)}
+            </select>
+          </div>
 
-          {showAdvanced && (
-            <div className="advanced-panel">
-              <div className="slider-row">
-                <span className="slider-label">
-                  Results
-                  <span className="slider-value">{topK}</span>
-                </span>
-                <input
-                  type="range" min="1" max="10" step="1"
-                  value={topK} onChange={(e) => setTopK(Number(e.target.value))}
-                />
-              </div>
-              <div className="slider-row">
-                <span className="slider-label">
-                  Visual weight
-                  <span className="slider-value">{Math.round(visualWeight * 100)}%</span>
-                </span>
-                <input
-                  type="range" min="0" max="1" step="0.05"
-                  value={visualWeight} onChange={(e) => setVisualWeight(Number(e.target.value))}
-                  disabled={!image || !text}
-                />
-              </div>
-              <div className="weight-display">
-                <span>Visual {Math.round(visualWeight * 100)}%</span>
-                <div className="weight-bar">
-                  <div className="weight-bar-fill weight-bar-fill--visual" style={{ width: `${visualWeight * 100}%` }} />
+          {/* Advanced */}
+          {showAdv && (
+            <div className="sp-adv">
+              <div className="sp-adv-label">ADVANCED SETTINGS</div>
+
+              <div className="sp-slider-row">
+                <div className="sp-slider-labels">
+                  <span>Results</span>
+                  <span className="sp-slider-val">{topK}</span>
                 </div>
-                <span>Text {Math.round((1 - visualWeight) * 100)}%</span>
+                <input type="range" min="1" max="10" step="1" value={topK} onChange={e => setTopK(+e.target.value)} className="sp-range" />
+              </div>
+
+              <div className="sp-slider-row">
+                <div className="sp-slider-labels">
+                  <span>Visual weight</span>
+                  <span className="sp-slider-val">{Math.round(visualWeight * 100)}%</span>
+                </div>
+                <input type="range" min="0" max="1" step="0.05" value={visualWeight}
+                  onChange={e => setVW(+e.target.value)} disabled={!image || !text} className="sp-range" />
+              </div>
+
+              <div className="sp-weight-bar-row">
+                <span>Visual {Math.round(visualWeight*100)}%</span>
+                <div className="sp-weight-track">
+                  <div className="sp-weight-fill" style={{ width:`${visualWeight*100}%` }} />
+                </div>
+                <span>Text {Math.round((1-visualWeight)*100)}%</span>
               </div>
             </div>
           )}
 
+          {/* Search button */}
           <button
-            className={`search-btn ${loading ? "search-btn--loading" : ""}`}
-            onClick={handleSubmit}
+            className={`sp-btn${loading ? " sp-btn--loading" : ""}`}
+            onClick={() => onSearch({ image, text, visualWeight, textWeight: +(1-visualWeight).toFixed(2), topK, filterPartType: partType === "All" ? null : partType })}
             disabled={!canSearch}
           >
             {loading ? (
-              <span className="spinner" />
+              <><span className="sp-spinner" /> SCANNING INVENTORY…</>
             ) : (
               <>
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
                 </svg>
-                Find Matching Parts
+                FIND MATCHING PARTS
               </>
             )}
           </button>

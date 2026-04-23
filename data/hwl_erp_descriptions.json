@@ -1,0 +1,1214 @@
+[
+    {
+        "Material": "9-1980914-6",
+        "Material Description": "V114A-5MOU 3/2 ventiel"
+    },
+    {
+        "Material": "59-1068252-00010",
+        "Material Description": "1000.9885 Diaphragm Pressure Pump"
+    },
+    {
+        "Material": "50-1775531-90031",
+        "Material Description": "HANDLE"
+    },
+    {
+        "Material": "59-1068431-00684",
+        "Material Description": null
+    },
+    {
+        "Material": "59-1068431-00529",
+        "Material Description": "SV1200-5FU-C-C6 - 5/2 bist. ventiel + Mo"
+    },
+    {
+        "Material": "59-1068431-00117",
+        "Material Description": "RBA0805-X692 - RBA0805-X692"
+    },
+    {
+        "Material": "59-1068331-00005",
+        "Material Description": "1021/G-C-3.0N-Au-1.3 - Pruefstift"
+    },
+    {
+        "Material": "59-1014230-00115",
+        "Material Description": "1021/G-C-2.25N-Au-1.3 - Pruefstift"
+    },
+    {
+        "Material": "59-1014230-00867",
+        "Material Description": "E3Z-LT86 - Photoelectric laser sensor (O"
+    },
+    {
+        "Material": "59-1068683-00013",
+        "Material Description": "001 999 986 SPANNZANGE"
+    },
+    {
+        "Material": "59-1068439-00006",
+        "Material Description": "094331 - Gasfeder (400N) (Stabilus)"
+    },
+    {
+        "Material": "2053800921074",
+        "Material Description": "WETSTEEN 90K 89 A KOMBI    25X50X150"
+    },
+    {
+        "Material": "9-1980900-5",
+        "Material Description": "VHM VERZINKFREES 3L 90  DIA 12.4"
+    },
+    {
+        "Material": "9-1981022-8",
+        "Material Description": null
+    },
+    {
+        "Material": "21-1958120-00102",
+        "Material Description": "INSERT FH"
+    },
+    {
+        "Material": "21-1884596-00510",
+        "Material Description": "SLIDE INSERT"
+    },
+    {
+        "Material": "21-1075810-00534",
+        "Material Description": "SCHIEBERKERN_15"
+    },
+    {
+        "Material": "51-1775110-51171",
+        "Material Description": "PROFILE INSERT"
+    },
+    {
+        "Material": "20-0994707-00061",
+        "Material Description": "1-CHANNEL CONTACT POS 1712C1"
+    },
+    {
+        "Material": "21-1018204-00520",
+        "Material Description": "INSERT"
+    },
+    {
+        "Material": "21-1776178-00322",
+        "Material Description": "INSERT MH"
+    },
+    {
+        "Material": "21-1776016-01314",
+        "Material Description": "CAVITY INSERT ES"
+    },
+    {
+        "Material": "51-1764200-D0265",
+        "Material Description": "Buigstempel"
+    },
+    {
+        "Material": "28-1963526-00079",
+        "Material Description": null
+    },
+    {
+        "Material": "28-1776280-00320",
+        "Material Description": "INSERT MH"
+    },
+    {
+        "Material": "51-1776500-10204",
+        "Material Description": null
+    },
+    {
+        "Material": "11-1058025-02497",
+        "Material Description": "BENDING INSERT"
+    },
+    {
+        "Material": "11-1058025-02498",
+        "Material Description": "Lifter"
+    },
+    {
+        "Material": "11-0020743-02364",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02345",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02360",
+        "Material Description": null
+    },
+    {
+        "Material": "11-1763860-00095",
+        "Material Description": "PLETSTEMPEL"
+    },
+    {
+        "Material": "11-1958989-03005",
+        "Material Description": "BUIGINZET"
+    },
+    {
+        "Material": "11-1958989-03775",
+        "Material Description": "SLEDE"
+    },
+    {
+        "Material": "19-1829660-01135",
+        "Material Description": "PLETINZET"
+    },
+    {
+        "Material": "11-1058076-00451",
+        "Material Description": "BIEGEEINSATZ"
+    },
+    {
+        "Material": "11-1829701-10404",
+        "Material Description": "GAP SIZE PUNCH"
+    },
+    {
+        "Material": "59-1068320-00006",
+        "Material Description": "750102 - EMERGENCY STOP RELAY"
+    },
+    {
+        "Material": "11-1962821-03518",
+        "Material Description": "NEERHOUDER"
+    },
+    {
+        "Material": "11-1829367-02151",
+        "Material Description": "SNIJSTEMPEL"
+    },
+    {
+        "Material": "11-1829367-02152",
+        "Material Description": "SNIJSTEMPEL"
+    },
+    {
+        "Material": "11-1829367-02153",
+        "Material Description": "SNIJSTEMPEL"
+    },
+    {
+        "Material": "21-1780220-00120",
+        "Material Description": "INSERT IS"
+    },
+    {
+        "Material": "11-1776090-02274",
+        "Material Description": "STEMPEL BRAAM SLAAN"
+    },
+    {
+        "Material": "11-0020743-02332",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02336",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02337",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02338",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02339",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02341",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02342",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02344",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02346",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02348",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02349",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02352",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02353",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02356",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02357",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02358",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02374",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02375",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02378",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02380",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02482",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02483",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-02484",
+        "Material Description": null
+    },
+    {
+        "Material": "11-1829701-22101",
+        "Material Description": "ZOEKERHOUDER"
+    },
+    {
+        "Material": "11-0020743-03252",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-03261",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-03348",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-03349",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11061",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11062",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11067",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11071",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11072",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11091",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11101",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11102",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11103",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11111",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11121",
+        "Material Description": null
+    },
+    {
+        "Material": "11-0020743-11124",
+        "Material Description": null
+    },
+    {
+        "Material": "54-1068999-00095",
+        "Material Description": "GREY"
+    },
+    {
+        "Material": "54-1068999-00092",
+        "Material Description": "BROWN"
+    },
+    {
+        "Material": "9-1980991-7",
+        "Material Description": "Motan metro G 03I-HSG hopper"
+    },
+    {
+        "Material": "9-1980924-4",
+        "Material Description": "ORA_SOKO1 Stuurkastje motan hopper"
+    },
+    {
+        "Material": "59-1068209-00027",
+        "Material Description": "EXTENSION CABLE 8-CHANNEL, TYC"
+    },
+    {
+        "Material": "59-1068040-00020",
+        "Material Description": "3 842 527 865 - Reductor"
+    },
+    {
+        "Material": "59-1068267-00344",
+        "Material Description": null
+    },
+    {
+        "Material": "59-1068344-00012",
+        "Material Description": "170-6715 (CGPT-R-6.4-0-RSU) - Krimpkous"
+    },
+    {
+        "Material": "2277057-7",
+        "Material Description": "SOEPELE DRAAD GEEL/GROEN  2,5MM2"
+    },
+    {
+        "Material": "2277058-2",
+        "Material Description": "SOEPELE DRAAD GEEL/GROEN  1,5MM2"
+    },
+    {
+        "Material": "9-1981019-4",
+        "Material Description": null
+    },
+    {
+        "Material": "59-1068176-86213",
+        "Material Description": "0.0.388.66 - AUTOMATIC-FASTENI"
+    },
+    {
+        "Material": "59-1068002-00045",
+        "Material Description": "SHOCK ABSORBER MC30EUM-2-880"
+    },
+    {
+        "Material": "PM05380165",
+        "Material Description": "Sperring set  \u00d840mm Engel 238929"
+    },
+    {
+        "Material": "2277146-8",
+        "Material Description": "DIN 912 12.9 M6x30 - B6K bout"
+    },
+    {
+        "Material": "59-1068347-00003",
+        "Material Description": "ORANJE - OOGBOUT M16"
+    },
+    {
+        "Material": "59-1068026-00294",
+        "Material Description": "10017261 - Rubberplaat Eriks Luna Para D"
+    },
+    {
+        "Material": "59-1068026-00106",
+        "Material Description": "10045427 - Eindkap + GF + PVC (Dia 75)"
+    },
+    {
+        "Material": "59-1068026-00099",
+        "Material Description": "10045720 - 3-delige Kopeling + GF + PVC"
+    },
+    {
+        "Material": "59-1068026-00100",
+        "Material Description": "11160231 - Verloopstuk PVC+GF+PRO-Fit 63"
+    },
+    {
+        "Material": "59-1068026-00104",
+        "Material Description": "10046310 - T-stuk 90 + GF + PVC (Dia 75"
+    },
+    {
+        "Material": "59-1068026-00105",
+        "Material Description": "10045630 - Knie 90 + GF + PVC (Dia 75)"
+    },
+    {
+        "Material": "59-1068026-00133",
+        "Material Description": "11002500 - DICHTINGSSET - AFAG LM 16/60"
+    },
+    {
+        "Material": "59-1068021-00004",
+        "Material Description": "4-way valve - 28356A2"
+    },
+    {
+        "Material": "59-1068026-00153",
+        "Material Description": "11611443 - Hydr.Cilinder CD 40/18 A"
+    },
+    {
+        "Material": "59-1068026-00148",
+        "Material Description": "23886283 - Karcher zuigturbine"
+    },
+    {
+        "Material": "59-1068033-00004",
+        "Material Description": "0903060003 - DIN-CONNECTOR 3-W"
+    },
+    {
+        "Material": "59-1068033-00010",
+        "Material Description": "0903140005 - DIN-CONNECTOR 5-W"
+    },
+    {
+        "Material": "59-1068041-00001",
+        "Material Description": "1827414004 (Bosch) - -"
+    },
+    {
+        "Material": "59-1068040-00013",
+        "Material Description": "3842528817 - Setting Monitoring"
+    },
+    {
+        "Material": "59-1068040-00062",
+        "Material Description": "3842992517 lengte 775mm - Tandriem 25T5"
+    },
+    {
+        "Material": "59-1068036-00008",
+        "Material Description": "Aanhangzak voor wondergun D22MM - Line O"
+    },
+    {
+        "Material": "59-1068026-00127",
+        "Material Description": "AFAG CS 8/30 - Cilinder"
+    },
+    {
+        "Material": "59-1068026-00112",
+        "Material Description": "AFAG GMQ12/P-RM 12 - Pince rotativ"
+    },
+    {
+        "Material": "59-1068026-00113",
+        "Material Description": "AFAG GMQ20/P-RM16SD - Pince rotativ"
+    },
+    {
+        "Material": "59-1068026-00126",
+        "Material Description": "AFAG LM 16/90 - Cilinder"
+    },
+    {
+        "Material": "59-1068026-00125",
+        "Material Description": "LM 20/60 - AFAG LINEARMODUL"
+    },
+    {
+        "Material": "59-1068026-00138",
+        "Material Description": "AFAG RM12 - -"
+    },
+    {
+        "Material": "59-1068026-00111",
+        "Material Description": "AFAG UG 16 - Universele grijper AFAG"
+    },
+    {
+        "Material": "59-1068020-00029",
+        "Material Description": "1231-801-107 - AKN30-16H7-16H7 Gerw"
+    },
+    {
+        "Material": "59-1068040-00107",
+        "Material Description": "Aventics R422103847 valve"
+    },
+    {
+        "Material": "59-1068024-00085",
+        "Material Description": "BAE SA-CS-001-PS - SCHAKELVERSTERKER"
+    },
+    {
+        "Material": "59-1068027-00106",
+        "Material Description": "BAUMER OZDK 10P5101/S35A"
+    },
+    {
+        "Material": "59-1068024-00060",
+        "Material Description": "BCS G06T4D2-PSM15C-S49G"
+    },
+    {
+        "Material": "59-1068030-00002",
+        "Material Description": "Bero Bersnstein Sens - 650.2942.002 No E"
+    },
+    {
+        "Material": "59-1068024-00116",
+        "Material Description": "BES049E - BES R04MC-PSC20B-EP0"
+    },
+    {
+        "Material": "59-1068024-00088",
+        "Material Description": "BGL80A001S49 OPTOSENSOR VORK"
+    },
+    {
+        "Material": "59-1068040-00479",
+        "Material Description": "Blokcilinder ZD50 3842311949"
+    },
+    {
+        "Material": "59-1068023-00002",
+        "Material Description": "BM 30.152 - Holding-magnet"
+    },
+    {
+        "Material": "59-1068024-00087",
+        "Material Description": "BMF 303 K-PS-C-2A-SA2-S49-00.2"
+    },
+    {
+        "Material": "59-1068024-00119",
+        "Material Description": "BMF0070 - BMF 307K-PS-C-2-S49-"
+    },
+    {
+        "Material": "59-1068024-00120",
+        "Material Description": "BMF0002 - BMF 204K-PS-C-2A-SA2"
+    },
+    {
+        "Material": "59-1068024-00089",
+        "Material Description": "BOH TZ-G02-001-01-S49F-SA2"
+    },
+    {
+        "Material": "59-1068024-00117",
+        "Material Description": "BOS01FR - BOS 23K-PA-LH10-S4"
+    },
+    {
+        "Material": "59-1068024-00045",
+        "Material Description": "BOW A-0808-PS-C-S49"
+    },
+    {
+        "Material": "59-1068020-00022",
+        "Material Description": "11-307423 - Bremsrad"
+    },
+    {
+        "Material": "59-1068026-00079",
+        "Material Description": "BUCHNER HI-LIGHT-6 - -"
+    },
+    {
+        "Material": "59-1068026-00048",
+        "Material Description": "Cilinder Stopper WT' - Delta BS 5-100"
+    },
+    {
+        "Material": "59-1068026-00053",
+        "Material Description": "D9-550 - -"
+    },
+    {
+        "Material": "59-1068026-00321",
+        "Material Description": "DIN 931 M8X50 - ZESKANTBOUT"
+    },
+    {
+        "Material": "59-1068026-00322",
+        "Material Description": "DIN 931 M8X70 - ZESKANTBOUT"
+    },
+    {
+        "Material": "59-1068021-00003",
+        "Material Description": "Double 3-way valve - 28356A1"
+    },
+    {
+        "Material": "59-1068020-00074",
+        "Material Description": "DRAHTZUGREGLER PSB402 / 2003182"
+    },
+    {
+        "Material": "59-1068026-00118",
+        "Material Description": "EINDELOOPSCHAKELAAR BES/3"
+    },
+    {
+        "Material": "59-1068026-00002",
+        "Material Description": "Feedroll soft Assy. - 21-009"
+    },
+    {
+        "Material": "59-1068026-00123",
+        "Material Description": "Filter C1131 - -"
+    },
+    {
+        "Material": "59-1068020-00025",
+        "Material Description": "11-307427 - Filzrad klein"
+    },
+    {
+        "Material": "59-1068026-00190",
+        "Material Description": "Hogedruk cilinder - Presso technik"
+    },
+    {
+        "Material": "59-1068020-00027",
+        "Material Description": "10001-152-101 - HTD 1895-5M-30 conti"
+    },
+    {
+        "Material": "59-1068024-00011",
+        "Material Description": "INDUCTIVE SENSOR BES 516-324-G-E5-C-S49"
+    },
+    {
+        "Material": "59-1068026-00327",
+        "Material Description": "ISO7380 10 10.9 EZN M3X10"
+    },
+    {
+        "Material": "59-1068035-00001",
+        "Material Description": "Kendrion type WSB 646 230V/50hz - Spoel"
+    },
+    {
+        "Material": "59-1068040-00344",
+        "Material Description": "KOGELWAGEL CS R162319420"
+    },
+    {
+        "Material": "59-1068026-00007",
+        "Material Description": "KR50 dia18-22 koppel - -"
+    },
+    {
+        "Material": "59-1068020-00028",
+        "Material Description": "10001-220-101 - Kupplung DKN 100/47"
+    },
+    {
+        "Material": "59-1068026-00170",
+        "Material Description": "lager r4zz/N/M - lager"
+    },
+    {
+        "Material": "59-1068026-00006",
+        "Material Description": "Loctite uv-lamp 1000w 376722 - 97329"
+    },
+    {
+        "Material": "59-1068042-00020",
+        "Material Description": "LOTO HANDWIELAFSLUITER"
+    },
+    {
+        "Material": "59-1068026-00029",
+        "Material Description": "Luchtfilter - 6097"
+    },
+    {
+        "Material": "59-1068026-00078",
+        "Material Description": "Magneetkoppeling Har - 546.15.4.5"
+    },
+    {
+        "Material": "59-1068036-00004",
+        "Material Description": "Matrijsveer rood 16x - 3S16065"
+    },
+    {
+        "Material": "59-1068026-00074",
+        "Material Description": "Maxtop sbr ketting 06b-1 3/8x7/32"
+    },
+    {
+        "Material": "59-1068027-00052",
+        "Material Description": "MY COM BS50 - (9122348) (Baumer)"
+    },
+    {
+        "Material": "59-1068027-00062",
+        "Material Description": "MY COM G75P80/L - - (Baumer)"
+    },
+    {
+        "Material": "59-1068027-00081",
+        "Material Description": "MY COM H75/80 - 10251037-9082463 (Baumer"
+    },
+    {
+        "Material": "59-1068027-00091",
+        "Material Description": "MY COM B30/80 - - (Baumer)"
+    },
+    {
+        "Material": "59-1068023-00024",
+        "Material Description": "NEODYMIUM BAR MAGNET NDFEB D6x20mm"
+    },
+    {
+        "Material": "59-1068027-00037",
+        "Material Description": "OHDK10P5101/S35A - 9133949 (Baumer)"
+    },
+    {
+        "Material": "59-1068026-00086",
+        "Material Description": "Origa P200-25 - 2007418732"
+    },
+    {
+        "Material": "59-1068026-00262",
+        "Material Description": "PD W-720 SC white - Good Year Eagle Time"
+    },
+    {
+        "Material": "59-1068042-00018",
+        "Material Description": "PLT-21-427 - CABLE/WIRE ID LAB"
+    },
+    {
+        "Material": "59-1068034-00001",
+        "Material Description": "PT-78-K10 (11938084) - Binks 2.8 gallon"
+    },
+    {
+        "Material": "59-1068040-00019",
+        "Material Description": "R0741 520 00 - Linear Ball Bushing"
+    },
+    {
+        "Material": "59-1068040-00364",
+        "Material Description": "ROUND BELT FOR CURVE KE2 180"
+    },
+    {
+        "Material": "59-1068028-00006",
+        "Material Description": "ROBA STOP 2/800.451.0 - rem berger lahr"
+    },
+    {
+        "Material": "59-1068026-00136",
+        "Material Description": "RM16 AFAG rotations modul"
+    },
+    {
+        "Material": "59-1068256-01316",
+        "Material Description": "ROUND BELT"
+    },
+    {
+        "Material": "59-1068021-00010",
+        "Material Description": "Rubber Sealer - 591054A2"
+    },
+    {
+        "Material": "59-1068040-00001",
+        "Material Description": "Schakelventiel - 0820 038 102"
+    },
+    {
+        "Material": "59-1068020-00043",
+        "Material Description": "12307263 - Schneidduse HWS1000 S2"
+    },
+    {
+        "Material": "59-1068026-00005",
+        "Material Description": "Spring 1014 - -"
+    },
+    {
+        "Material": "59-1068026-00087",
+        "Material Description": "T+H HLP - 230V 125W"
+    },
+    {
+        "Material": "59-1068023-00004",
+        "Material Description": "Magneet plat dia 10x4,5mm z.dr.bus - Bak"
+    },
+    {
+        "Material": "59-1068021-00011",
+        "Material Description": "Tefon Sheet - 59402A1"
+    },
+    {
+        "Material": "59-1068040-00430",
+        "Material Description": "Tandriem 25T5 A 12 070mm"
+    },
+    {
+        "Material": "59-1068040-00469",
+        "Material Description": "TANDRIEM 25T5 A Lengte 5075mm"
+    },
+    {
+        "Material": "59-1068020-00026",
+        "Material Description": "300 1056 - Tangentialspindel ko"
+    },
+    {
+        "Material": "59-1068026-00030",
+        "Material Description": "Tellerfeder 8.2x20x1.0 - Tellerfeder"
+    },
+    {
+        "Material": "59-1068040-00363",
+        "Material Description": "TOOTH BELT"
+    },
+    {
+        "Material": "59-1068024-00083",
+        "Material Description": "TR-G02-001-01-S49F (OPTISCHE SENSOR)"
+    },
+    {
+        "Material": "59-1068026-00144",
+        "Material Description": "TSE-60/X/12 - 703724"
+    },
+    {
+        "Material": "59-1068027-00064",
+        "Material Description": "UNDK 30I6103/S14 - 9134134 (Baumer)"
+    },
+    {
+        "Material": "59-1068027-00094",
+        "Material Description": "UNDK 30P1712/S14 (9111844) - Baumer Ultr"
+    },
+    {
+        "Material": "59-1068031-00001",
+        "Material Description": "V8BP - -"
+    },
+    {
+        "Material": "59-1068028-00003",
+        "Material Description": "VRDM 568/50 LNB - 13672 0150 00"
+    },
+    {
+        "Material": "59-1068028-00004",
+        "Material Description": "VRDM 566/50 LNB - 13686 0150 09"
+    },
+    {
+        "Material": "59-1068028-00011",
+        "Material Description": "WD3-004 - Power module positec (Sturing)"
+    },
+    {
+        "Material": "59-1068026-00137",
+        "Material Description": "Y50549 PRESSOL 06866 OLIEKAN 500ML - Lin"
+    },
+    {
+        "Material": "59-1068026-00043",
+        "Material Description": "Zuigmondje - -"
+    },
+    {
+        "Material": "59-1068075-00049",
+        "Material Description": "LOGO! DM8 12/24R expansion module"
+    },
+    {
+        "Material": "9-1980911-3",
+        "Material Description": "#10526 CERAMIC UTILITY BLADES ROUNDED TI"
+    },
+    {
+        "Material": "9-1980910-6",
+        "Material Description": "#10528 SLICE SMART CUTTER CERAMIC BLADE"
+    },
+    {
+        "Material": "59-1068176-00005",
+        "Material Description": "0.0.419.40 - NUTENSTEIN 6 ST M6"
+    },
+    {
+        "Material": "51-1972913-77112",
+        "Material Description": "01-0306912 GRIPPER FINGER"
+    },
+    {
+        "Material": "11-0018473-00052",
+        "Material Description": "1ST PROFILE INSERT MODULE"
+    },
+    {
+        "Material": "59-1068426-00172",
+        "Material Description": "5SY6363-7 - LEISTUNGSSCHUTZSCH"
+    },
+    {
+        "Material": "59-1068426-00242",
+        "Material Description": "6ES7193-4CE00-0AA0 - TERMINAL"
+    },
+    {
+        "Material": "59-1068426-00279",
+        "Material Description": "6ES7153-1AA03-0XB0 - PROFIBUS"
+    },
+    {
+        "Material": "59-1068426-00216",
+        "Material Description": "6ES7151-8FB01-0AB0 - AUTOMATIS"
+    },
+    {
+        "Material": "21-1780081-00701",
+        "Material Description": "09E THREADED NOZZLE BODY L=130"
+    },
+    {
+        "Material": "59-1068452-00006",
+        "Material Description": "10 T05/0270 - Optibelt -ZRM 1198"
+    },
+    {
+        "Material": "9-1980977-8",
+        "Material Description": "264.548 Oliefilter"
+    },
+    {
+        "Material": "9-1980949-6",
+        "Material Description": "619-6876 Axial fan 230V 35W 172x150"
+    },
+    {
+        "Material": "51-1977631-00352",
+        "Material Description": "4072-0352 - Ejector Pin"
+    },
+    {
+        "Material": "51-1977631-31104",
+        "Material Description": "4072-1104 - Guide Plate"
+    },
+    {
+        "Material": "59-1068277-00387",
+        "Material Description": "06250-24010 BALL KNOBS"
+    },
+    {
+        "Material": "59-1068267-00253",
+        "Material Description": "7000-44711-8000300 - M12 MALE"
+    },
+    {
+        "Material": "59-1068158-00005",
+        "Material Description": "16626 - SET Filter QZ hp"
+    },
+    {
+        "Material": "2277133-8",
+        "Material Description": "00134155 - Burkert 3/2 wegventiel type 6"
+    },
+    {
+        "Material": "59-1068124-00847",
+        "Material Description": "151689 - KMEB-1-24-5-LED(CONTRAST. KABEL"
+    },
+    {
+        "Material": "59-1068673-00004",
+        "Material Description": "772100 CONFIGURABLE CONTROL SYSTEM PNOZM"
+    },
+    {
+        "Material": "9-1980946-4",
+        "Material Description": "796786 reductie 1\" naar 1/2\""
+    },
+    {
+        "Material": "9-1980955-4",
+        "Material Description": "3594413 connector 6P+PE Female cable"
+    },
+    {
+        "Material": "9-1980944-2",
+        "Material Description": "10450476 Led Ring light A60F Leica"
+    },
+    {
+        "Material": "51-1776289-06308",
+        "Material Description": "20332021 - PILOT PIN"
+    },
+    {
+        "Material": "51-1776289-06271",
+        "Material Description": "20333749 - PRESSURE PLATE"
+    },
+    {
+        "Material": "51-1977631-07003",
+        "Material Description": "2309107003 - PUNCHER"
+    },
+    {
+        "Material": "11-1780021-03174",
+        "Material Description": "ADAPTER"
+    },
+    {
+        "Material": "51-1775406-65351",
+        "Material Description": "ADAPTER SHAFT"
+    },
+    {
+        "Material": "11-0022245-00158",
+        "Material Description": "ADJUSTABLE CAM"
+    },
+    {
+        "Material": "51-1776206-72144",
+        "Material Description": "ADJUSTING RING"
+    },
+    {
+        "Material": "51-1774963-67132",
+        "Material Description": "ADJUSTMENT PLATE"
+    },
+    {
+        "Material": "51-1776012-42171",
+        "Material Description": "ADJUSTMENT PLATE 8"
+    },
+    {
+        "Material": "11-1058194-01327",
+        "Material Description": "AFDEKPLAAT"
+    },
+    {
+        "Material": "11-1058194-05571",
+        "Material Description": "AFDEKPLAATJE"
+    },
+    {
+        "Material": "11-3536001-00010",
+        "Material Description": "AFSTANDSTUK"
+    },
+    {
+        "Material": "11-3560000-00006",
+        "Material Description": "AFSTEUNBLOK"
+    },
+    {
+        "Material": "11-1829523-04136",
+        "Material Description": "AFSTEUNING BUIGING"
+    },
+    {
+        "Material": "11-0018623-00042",
+        "Material Description": "AFSTROOKPLAAT"
+    },
+    {
+        "Material": "11-1775137-02060",
+        "Material Description": "AFVALREMMER"
+    },
+    {
+        "Material": "59-1068662-00070",
+        "Material Description": "Angst+PfisterBELT BRECOFLEX 2440-T5-25"
+    },
+    {
+        "Material": "28-1776049-00074",
+        "Material Description": "ANGULAR PIN"
+    },
+    {
+        "Material": "28-1018793-00202",
+        "Material Description": "ANGUSSEINSATZ_1"
+    },
+    {
+        "Material": "28-1018793-00203",
+        "Material Description": "ANGUSSEINSATZ_2"
+    },
+    {
+        "Material": "11-1058076-00421",
+        "Material Description": "ANSCHLAGLEISTE (H) #1"
+    },
+    {
+        "Material": "51-1775110-18306",
+        "Material Description": "ANTRIEBSROLLE"
+    },
+    {
+        "Material": "11-1058194-22125",
+        "Material Description": "ANVIL"
+    },
+    {
+        "Material": "11-0022245-00207",
+        "Material Description": "ANVIL TWEEZER"
+    },
+    {
+        "Material": "51-1774221-18506",
+        "Material Description": "As Lift"
+    },
+    {
+        "Material": "21-0396708-00158",
+        "Material Description": "As locking kern umbau 0-2"
+    },
+    {
+        "Material": "21-1018518-00250",
+        "Material Description": "As zentrier kern"
+    },
+    {
+        "Material": "21-1018519-00193",
+        "Material Description": "AS-einsatz links gehaeuse"
+    },
+    {
+        "Material": "21-1857100-00199",
+        "Material Description": "ATTRITION BUSHING"
+    },
+    {
+        "Material": "51-1774478-18518",
+        "Material Description": "AUFNAHMEBOLZEN"
+    },
+    {
+        "Material": "28-1043537-02004",
+        "Material Description": "Auswerfer 1.2 x 108.61"
+    },
+    {
+        "Material": "23-0396856-00078",
+        "Material Description": "AUSWERFER RUND"
+    },
+    {
+        "Material": "11-1776089-04100",
+        "Material Description": "AXLE"
+    },
+    {
+        "Material": "51-1775760-61062",
+        "Material Description": "BACK POSITIONING JAW EBC460"
+    },
+    {
+        "Material": "21-1835920-03850",
+        "Material Description": "BAFFLE PLATE"
+    },
+    {
+        "Material": "59-0232203-00284",
+        "Material Description": "Bague Roulement"
+    },
+    {
+        "Material": "59-1068530-00007",
+        "Material Description": "BAND VOOR FR-40-120, L=2000MM"
+    },
+    {
+        "Material": "11-0020569-00242",
+        "Material Description": "BANDGELEIDING VOOR"
+    },
+    {
+        "Material": "11-1058140-00161",
+        "Material Description": "BANDGELEIDING INZET VOOR"
+    },
+    {
+        "Material": "51-1775110-18304",
+        "Material Description": "BEARING COVER"
+    },
+    {
+        "Material": "51-1775110-18307",
+        "Material Description": "BEARING PIECE"
+    },
+    {
+        "Material": "54-1068999-00287",
+        "Material Description": "BEK BANKSCHROEF (2)"
+    },
+    {
+        "Material": "59-1068662-00062",
+        "Material Description": "BELT MEGALINEAR J32AT5 675 NFTA NFBA"
+    },
+    {
+        "Material": "59-1068662-00059",
+        "Material Description": "BELT MEGALINEAR J32AT5 5155NFTA NFBA"
+    },
+    {
+        "Material": "59-1068024-00084",
+        "Material Description": "BGL 120A-001-S49"
+    },
+    {
+        "Material": "11-1773970-02903",
+        "Material Description": "BOLT M4X0.5 FINE THREAD"
+    },
+    {
+        "Material": "11-0020110-00276",
+        "Material Description": "BOLZEN"
+    },
+    {
+        "Material": "59-1068024-00090",
+        "Material Description": "BOS 18M-PA-ID20-S4"
+    },
+    {
+        "Material": "28-1776499-02107",
+        "Material Description": "BOSCH MOTOR HOUSING"
+    },
+    {
+        "Material": "11-1829513-06007",
+        "Material Description": "BOVEN GELEIDING"
+    },
+    {
+        "Material": "50-1776581-70172",
+        "Material Description": "BOVENMES SCHAAR NXG - AFSNIJDEN PAPIER"
+    },
+    {
+        "Material": "11-0275146-00115",
+        "Material Description": "BOVENSTEMPEL/UPPER PUNCH 6 MULTISPRING B"
+    },
+    {
+        "Material": "11-1058194-04005",
+        "Material Description": "BRAKE RETAINING BLOCK"
+    },
+    {
+        "Material": "21-1780090-03151",
+        "Material Description": "BRASS GUIDE BUSH"
+    },
+    {
+        "Material": "11-0020110-00526",
+        "Material Description": "BREMSHALTER"
+    },
+    {
+        "Material": "2277159-4",
+        "Material Description": "BSO 30268 (861 539) - Kolbenpumpe PAS En"
+    },
+    {
+        "Material": "11-0018623-00272",
+        "Material Description": "BUCHSE MIT KUGELKAEFIG"
+    },
+    {
+        "Material": "11-1058140-01163",
+        "Material Description": "BUIGHAMER ACHTER-LINKS"
+    },
+    {
+        "Material": "11-1829259-03113",
+        "Material Description": "BUIGHOUDER"
+    },
+    {
+        "Material": "51-1776012-11208",
+        "Material Description": "BUNDBOHRBUCHSEN"
+    },
+    {
+        "Material": "51-1775110-41431",
+        "Material Description": "BUSHING"
+    },
+    {
+        "Material": "51-1964034-05203",
+        "Material Description": "BUSHING PIN"
+    },
+    {
+        "Material": "51-1775110-44102",
+        "Material Description": "CABLE PROTECTION EPSON ROBOT"
+    },
+    {
+        "Material": "2277098-2",
+        "Material Description": "CABLE TIE MOUNTING BASES 19X19MM"
+    },
+    {
+        "Material": "51-1775110-42386",
+        "Material Description": "CALIBER PIN"
+    },
+    {
+        "Material": "51-1776068-31005",
+        "Material Description": "CAM (CUTTING PUNCH SIDE OF TOOL)"
+    },
+    {
+        "Material": "51-1776068-31016",
+        "Material Description": "CAM (GRIPPER)"
+    },
+    {
+        "Material": "51-1776509-31006",
+        "Material Description": "CAM (GRIPPER) CLOSING 6 DEGREES LATER"
+    },
+    {
+        "Material": "11-1829610-01919",
+        "Material Description": "CAM COVER"
+    },
+    {
+        "Material": "51-1880251-31004",
+        "Material Description": "CAM DISK (LOWER TOOL)"
+    },
+    {
+        "Material": "51-1775110-41109",
+        "Material Description": "CAM SHAFT"
+    },
+    {
+        "Material": "11-1058946-00226",
+        "Material Description": "CAM SLIDER"
+    },
+    {
+        "Material": "21-1776183-00034",
+        "Material Description": "HOT RUNNER SLEEVE"
+    },
+    {
+        "Material": "28-1974615-00299",
+        "Material Description": "INSERT BOTTOMPLATE FH"
+    },
+    {
+        "Material": "2053800708796",
+        "Material Description": "WD-40 KRUIPOLIE SPUITBUS 400ML"
+    }
+]
