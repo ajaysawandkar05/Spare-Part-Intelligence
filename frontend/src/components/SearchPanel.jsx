@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from "react";
+import CameraModal from "./CameraModal";
 
 const PART_TYPES = [
   "All","photoelectric sensor","relay","actuator","pneumatic","connector",
@@ -15,6 +16,7 @@ export default function SearchPanel({ onSearch, loading }) {
   const [topK, setTopK]             = useState(5);
   const [showAdv, setShowAdv]       = useState(false);
   const [partType, setPartType]     = useState("All");
+  const [cameraOpen, setCameraOpen] = useState(false);
   const fileRef = useRef();
 
   const setFile = (f) => {
@@ -24,6 +26,11 @@ export default function SearchPanel({ onSearch, loading }) {
   };
 
   const clearImage = () => { setImage(null); setPreview(null); if (fileRef.current) fileRef.current.value = ""; };
+
+  const handleCameraCapture = (file) => {
+    setFile(file);
+    setCameraOpen(false);
+  };
 
   const handleDrop = useCallback((e) => {
     e.preventDefault(); setDragging(false);
@@ -82,6 +89,13 @@ export default function SearchPanel({ onSearch, loading }) {
               </div>
               <p className="sp-upload-title">Drop part image here</p>
               <p className="sp-upload-sub">or click to browse · JPG, PNG, WEBP</p>
+              <button 
+                className="sp-camera-btn" 
+                onClick={(e) => { e.stopPropagation(); setCameraOpen(true); }}
+                title="Capture photo with camera"
+              >
+                📷 Or use camera
+              </button>
               <div className="sp-upload-corners">
                 {["tl","tr","bl","br"].map(p => <span key={p} className={`sp-corner sp-corner--${p}`} />)}
               </div>
@@ -163,6 +177,12 @@ export default function SearchPanel({ onSearch, loading }) {
           </button>
         </div>
       </div>
+
+      <CameraModal 
+        isOpen={cameraOpen} 
+        onCapture={handleCameraCapture} 
+        onClose={() => setCameraOpen(false)} 
+      />
     </section>
   );
 }
